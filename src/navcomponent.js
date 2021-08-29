@@ -1,8 +1,7 @@
 import './navcomponent.css';
-function nav()
+function nav() 
 {
     return(
-        
             <div className="nav">
                 <header>
                     hello
