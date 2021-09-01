@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 export default function About(props) {
   // const [myStyle, setMyStyle] = useState({
@@ -7,10 +7,6 @@ export default function About(props) {
   //   border: '1px solid #000',
   //   transition: '0.5s all ease-in-out'
   // })
-  let myStyle = {
-    color:props.mode==='dark'?'white':'#042743',
-    backgroundColor:props.mode==='dark'?'rgb(36 74 104)':'white',
-  }
  let mysecstyle = 
  {
     color:props.mode==='dark'?'white':'#042743',
@@ -21,7 +17,7 @@ export default function About(props) {
   return (
     <div className="container my-3" style={{color:props.mode==='dark'?'white':'#042743',}}>
       <h1>About Us</h1>
-      <div classname="accordion" id="accordionExample">
+      <div className="accordion" id="accordionExample">
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingOne">
             <button
