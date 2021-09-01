@@ -72,7 +72,7 @@ export default function TextForm(props) {
             Remove Extra Spaces
           </button>
           <button disabled={text.length===0} className="btn btn-primary mx-2 my-2" onClick={handleComas}>
-            Remove Comas
+            Remove
           </button>
         </div>
       </div>
